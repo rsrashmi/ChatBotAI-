@@ -22,7 +22,7 @@ A React-based AI chat interface with plugin-style tools for enhanced functionali
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/chatboat.git
+git clone https://github.com/rsrashmi/ChatBotAI-.git
 cd chatboat
 ```
 
