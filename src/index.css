@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Chat UI Styles */
+.chat-message-user {
+  @apply bg-blue-600 text-white rounded-tr-none;
+}
+
+.chat-message-bot {
+  @apply bg-gray-100 text-gray-800 rounded-tl-none;
+}
+
+/* Smooth transitions */
+.message-enter {
+  @apply transition-all duration-200 ease-out;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-400 rounded-full;
+}
