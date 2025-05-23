@@ -1,7 +1,5 @@
 # ChatBoat - AI Chat Interface with Plugin System
 
-![ChatBoat Screenshot](./public/screenshot.png)
-
 A React-based AI chat interface with plugin-style tools for enhanced functionality, supporting natural language and slash commands.
 
 ## Features
